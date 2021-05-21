@@ -1,0 +1,21 @@
+$primary_color: red;
+$secondary_color: blue;
+
+.titolo{
+    color: $primary_color;
+}
+
+.rettangolo{
+    height: 40px;
+    width: 200px;
+    border: 2px solid $secondary_color;
+}
+
+button{
+    font-size: 100px;
+    color: $primary_color;
+
+    &:hover{
+        color: $secondary_color;
+    }
+}

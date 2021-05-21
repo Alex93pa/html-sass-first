@@ -1,0 +1,17 @@
+.titolo {
+  color: red;
+}
+
+.rettangolo {
+  height: 40px;
+  width: 200px;
+  border: 2px solid blue;
+}
+
+button {
+  font-size: 100px;
+  color: red;
+}
+button:hover {
+  color: blue;
+}
